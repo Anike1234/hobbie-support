@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hobbie — Support</title>
+    <style>
+        :root {
+            --bg: #0f1220;
+            --card: #171a2b;
+            --text: #e8ecff;
+            --muted: #a9b1d6;
+            --accent: #7aa2ff;
+            --ok: #7ce38b;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background: linear-gradient(180deg, #0f1220 0%, #12162a 100%);
+            color: var(--text);
+        }
+
+        .wrap {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 32px 20px 60px;
+        }
+
+        .hero {
+            margin-bottom: 18px;
+        }
+
+        h1 {
+            margin: 0 0 8px;
+            font-size: 2rem;
+        }
+
+        .subtitle {
+            color: var(--muted);
+            margin: 0;
+        }
+
+        .grid {
+            display: grid;
+            gap: 16px;
+        }
+
+        .card {
+            background: var(--card);
+            border: 1px solid #252b47;
+            border-radius: 14px;
+            padding: 18px;
+        }
+
+        h2 {
+            margin: 0 0 12px;
+            font-size: 1.1rem;
+        }
+
+        p,
+        li {
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        ul {
+            margin: 10px 0 0;
+            padding-left: 18px;
+        }
+
+        .muted {
+            color: var(--muted);
+        }
+
+        a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .badge {
+            display: inline-block;
+            border: 1px solid #2d3560;
+            color: var(--ok);
+            border-radius: 999px;
+            padding: 4px 10px;
+            font-size: 0.8rem;
+        }
+
+        footer {
+            margin-top: 22px;
+            color: var(--muted);
+            font-size: 0.9rem;
+        }
+
+        code {
+            background: #0f1326;
+            padding: 2px 6px;
+            border-radius: 6px;
+            border: 1px solid #232b4f;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="wrap">
+        <section class="hero">
+            <span class="badge">Support officiel</span>
+            <h1>Hobbie — Support</h1>
+            <p class="subtitle">Besoin d’aide avec votre compte, vos hobbies, ou un bug dans l’app ?</p>
+        </section>
+
+        <section class="grid">
+            <article class="card">
+                <h2>Contact</h2>
+                <p>
+                    Écrivez-nous à :
+                    <a href="mailto:xotouroflife@gmail.com">xotouroflife@gmail.com</a>
+                </p>
+                <p class="muted">
+                    Temps de réponse habituel : 24 à 72h ouvrées.
+                </p>
+            </article>
+
+            <article class="card">
+                <h2>FAQ rapide</h2>
+                <ul>
+                    <li><strong>Je ne reçois pas l’e-mail de confirmation</strong><br />Vérifiez les spams et que
+                        l’adresse e-mail est correcte.</li>
+                    <li><strong>Mon image/vidéo ne s’upload pas</strong><br />Vérifiez votre connexion et la taille du
+                        fichier.</li>
+                    <li><strong>Je veux supprimer mon compte</strong><br />Envoyez une demande à <a
+                            href="mailto:xotouroflife@gmail.com">xotouroflife@gmail.com </a> avec l’e-mail du compte.
+                    </li>
+                </ul>
+            </article>
+
+            <article class="card">
+                <h2>Liens utiles</h2>
+                <ul>
+                    <li>Politique de confidentialité : <a href="./privacy.html">./privacy.html</a></li>
+                    <li>Conditions d’utilisation : <a href="https://example.com/terms" target="_blank"
+                            rel="noreferrer">https://example.com/terms</a></li>
+                </ul>
+                <p class="muted">
+                    Remplace les liens <code>example.com</code> par tes vraies pages avant publication.
+                </p>
+            </article>
+        </section>
+
+        <footer>
+            Dernière mise à jour : 2026-02-27
+        </footer>
+    </main>
+</body>
+
+</html>
